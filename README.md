@@ -2,6 +2,16 @@ BASIC NETWORK SNIFFER(CYBER SECURITY):
 This repository hosts a basic Python network packet sniffer, 
 packet_sniffer.py built with the Scapy library. It's designed to capture, dissect, and analyze real-time network traffic, providing insights into common protocols and packet structures. The project highlights hands-on experience with low-level network operations, protocol analysis (Ethernet, IP, TCP, UDP, ICMP), and problem-solving in a Windows environment.
 
+How to run:
+1.) Clone the repository
+2.) Install Scapy
+3.) Install Npcap (Windows Only)
+4.) Identify your Network Interface:
+-Open a Python interpreter as Administrator and run scapy.all.show_interfaces().
+-Alternatively, use netsh wlan show interfaces (Wi-Fi) or netsh lan show interfaces (Ethernet) in an Administrator Command Prompt to find your active adapter's GUID.
+5.) Update INTERFACE variable: In packet_sniffer.py, replace {YOUR-ACTUAL-GUID-HERE} with your identified interface name or GUID.
+6.) Run the script (as Administrator) on command prompt
+
 Technologies Used:
 
 1.)Python 
