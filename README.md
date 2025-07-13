@@ -1,8 +1,7 @@
 BASIC NETWORK SNIFFER(CYBER SECURITY):
 This repository hosts a basic Python network packet sniffer, 
 packet_sniffer.py built with the Scapy library. It's designed to capture, dissect, and analyze real-time network traffic, providing insights into common protocols and packet structures. The project highlights hands-on experience with low-level network operations, protocol analysis (Ethernet, IP, TCP, UDP, ICMP), and problem-solving in a Windows environment.
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technologies Used:
 
 1.)Python 
@@ -12,10 +11,7 @@ Technologies Used:
 3.)Npcap (packet capture driver for Windows) 
 
 4.)Operating System: Developed and tested on Windows 10/11 
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Features:
 
 -Real-time Packet Capture: Utilizes Scapy's sniff() function to listen for network traffic on a specified interface. 
