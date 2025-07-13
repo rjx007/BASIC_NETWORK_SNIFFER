@@ -18,19 +18,7 @@ FEATURES:
 
 -Layer-by-Layer Dissection: Processes each captured packet, dissecting it layer by layer (Ethernet, IP, TCP, UDP, ICMP) to extract relevant information. 
 
--Detailed Information Display: Outputs key packet details including:
-
-1.)Source and Destination MAC Addresses 
-
-2.)Source and Destination IP Addresses 
-
-3.)Protocol (e.g., TCP, UDP, ICMP) 
-
-4.)Source and Destination Ports (for TCP/UDP) 
-
-5.)TCP Flags (SYN, ACK, FIN, etc.) 
-
-6.)Raw Payload Data 
+-Detailed Information Display: Outputs key packet details includes,[Source and Destination MAC Addresses, Source and Destination IP Addresses, Protocol (e.g., TCP, UDP, ICMP), Source and Destination Ports (for TCP/UDP), TCP Flags (SYN, ACK, FIN, etc.), Raw Payload Data] 
 
 -Human-Readable Protocol Names: Helper functions (get_protocol_name, get_icmp_type_name) translate numerical codes into clear, human-readable names for enhanced output clarity. 
 
